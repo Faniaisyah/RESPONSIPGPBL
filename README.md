@@ -1,12 +1,14 @@
 # ZIPPY - Mobilitas Cepat dan Efisien
 
 ZIPPY adalah aplikasi mobile yang dirancang untuk memberikan solusi mobilitas cepat dan efisien. Aplikasi ini memungkinkan pengguna untuk menyewa kendaraan roda dua seperti scooter dan sepeda listrik untuk perjalanan mereka, terutama untuk pengguna yang membutuhkan transportasi tambahan setelah menggunakan transportasi umum seperti kereta. Dengan antarmuka yang sederhana dan proses transaksi yang mudah, ZIPPY mempermudah mobilitas di kota. Pengguna dapat menyewa scooter atau sepeda listrik untuk perjalanan jarak dekat, menyewa kendaraan hanya dengan beberapa ketukan, dan membayar menggunakan berbagai metode pembayaran.
-Fitur-fitur utama:
 
-Penyewaan scooter dan sepeda listrik
-Peta interaktif untuk melihat lokasi dan rute
-Pembayaran melalui e-wallet, kartu debit, dan paylater
-Riwayat aktivitas dan manajemen akun pengguna
+## Fitur Utama
+
+- **Penyewaan Scooter dan Sepeda Listrik**: Menyewa scooter atau sepeda listrik untuk perjalanan cepat dan ramah lingkungan.
+- **Peta Interaktif**: Melihat lokasi dan rute penyewaan kendaraan terdekat.
+- **Pembayaran**: Mendukung pembayaran melalui e-wallet, kartu debit, dan paylater.
+- **Riwayat Aktivitas & Manajemen Akun**: Melihat riwayat penyewaan dan mengelola akun pengguna.
+
 
  <h3>Komponen Pembangun yang digunakan:</h3>
     <ol>
