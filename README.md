@@ -38,7 +38,7 @@ Aplikasi ZIPPY mengandalkan beberapa sumber data berikut:
 Deskripsi: Menampilkan waktu saat ini, pilihan transportasi (scooter atau sepeda listrik), serta tombol untuk melihat lokasi dan memulai proses sewa.
 
 ### **Tampilan Pembayaran (Payment)**  
-![Tampilan Pembayaran](path/to/screenshot2.png)  
+![Tampilan Pembayaran](homepagescooter.png)  
 Deskripsi: Pengguna dapat memilih metode pembayaran dan menyelesaikan transaksi sewa kendaraan.
 
 ### **Tampilan Aktivitas (Activity)**  
