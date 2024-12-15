@@ -12,7 +12,6 @@ Aplikasi ZIPPY dibangun menggunakan beberapa komponen utama yang digunakan dalam
 - **React Navigation**
 - **Leaflet.js**
 - **React Native Image Picker**
-- **WebView**
 - **FontAwesomeIcon**
 - **JavaScript**
 - **Visual Studio Code**
