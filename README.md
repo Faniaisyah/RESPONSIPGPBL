@@ -1,79 +1,75 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# ZIPPY - Mobilitas Cepat dan Efisien
 
-# Getting Started
+ZIPPY adalah aplikasi mobile yang dirancang untuk memberikan solusi mobilitas cepat dan efisien. Aplikasi ini memungkinkan pengguna untuk menyewa kendaraan roda dua seperti scooter dan sepeda listrik untuk perjalanan mereka, terutama untuk pengguna yang membutuhkan transportasi tambahan setelah menggunakan transportasi umum seperti kereta. Dengan antarmuka yang sederhana dan proses transaksi yang mudah, ZIPPY mempermudah mobilitas di kota. Pengguna dapat menyewa scooter atau sepeda listrik untuk perjalanan jarak dekat, menyewa kendaraan hanya dengan beberapa ketukan, dan membayar menggunakan berbagai metode pembayaran.
+Fitur-fitur utama:
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+Penyewaan scooter dan sepeda listrik
+Peta interaktif untuk melihat lokasi dan rute
+Pembayaran melalui e-wallet, kartu debit, dan paylater
+Riwayat aktivitas dan manajemen akun pengguna
 
-## Step 1: Start the Metro Server
+ <h3>Komponen Pembangun yang digunakan:</h3>
+    <ol>
+        <li><a href="https://geoserver.org/">Geoserver</a></li>
+        <li><a href="https://code.visualstudio.com/">Visual Studio Code</a></li>
+        <li><a href="https://www.w3schools.com/">W3schools</a></li>
+        <li><a href="https://fontawesome.com/">Fontawesome</a></li>
+        <li><a href="https://qgis.org/">QGIS</a></li>
+        <li><a href="https://dbeaver.io/">DBeaver</a></li>
+        <li><a href="https://getbootstrap.com/">Bootstrap</a></li>
+        <li><a href="https://laravel.com/">Laravel</a></li>
+        <li><a href="https://postgis.net/">PostGIS</a></li>
+        <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+        <li><a href="https://datatables.net/">Data Tables</a></li>
+        <li><a href="https://geojson.org/">GeoJSON</a></li>
+        <li><a href="https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry">Well-Known Text (WKT)</a></li>
+        <li><a href="https://leafletjs.com/">Leaflet</a></li>
+    </ol>
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
 
-To start Metro, run the following command from the _root_ of your React Native project:
+<h2>Sumber Data:</h2>
 
-```bash
-# using npm
-npm start
+<ul>
+  <li><a href="https://geoportal.slemankab.go.id/">Geoportal Kabupaten Sleman</a></li>
+  <li><a href="https://www.google.com/maps">Data Sebaran Fasilitas Pertahanan Dan Kemanan Melalu Google Maps</a></li>
+  <li><a href="https://geoportal.slemankab.go.id/](http://localhost:8080/geoserver/](http://localhost:8080/geoserver/web/?7">GeoServer</a></li>
+</li>
+</ul>
 
-# OR using Yarn
-yarn start
-```
+<h2>Tangkapan Layar Sumber Data</h2>
+<ol>
+  <li>Geoserver</li> <img src = "Screenshot 2024-06-13 201220.png" width = "500">
+  <li>Google Maps</li> <img src = "Screenshot 2024-06-13 201338.png" width = "500">
+   <li>Geoprortal Kabupaten Sleman</li> <img src = "Screenshot 2024-06-13 201353.png" width = "500">
+</ol>
 
-## Step 2: Start your Application
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
 
-### For Android
+<h2>Tangkapan Layar Komponen Penting</h2>
+<ol>
+  <li>index-public</li> <img src = "Screenshot 2024-06-13 201959.png" width = "500">
+  <li>login</li> <img src = "Screenshot 2024-06-13 202020.png" width = "500">
+  <li>index</li> <img src = "Screenshot 2024-06-14 211625.png" width = "500">
+  <li>dashboard</li> <img src = "Screenshot 2024-06-13 202040.png" width = "500">
+  <li>tabel point</li> <img src = "Screenshot 2024-06-13 202207.png" width = "500">
+   <li>tabel polyline</li> <img src = "Screenshot 2024-06-13 202216.png" width = "500">
+ <li>tabel polygon</li> <img src = "Screenshot 2024-06-13 202225.png" width = "500">
+   <li>output point</li> <img src = "Screenshot 2024-06-13 202120.png" width = "500">
+  <li>output poilyline</li> <img src = "Screenshot 2024-06-13 202141.png" width = "500">
+  <li>output polygon</li> <img src = "Screenshot 2024-06-13 202158.png" width = "500">
+  <li>info</li> <img src = "Screenshot 2024-06-13 202236.png" width = "500">
+  <li>Edit point</li> <img src = "Screenshot 2024-06-14 211434.png" width = "500">
+  <li>edit polyline</li> <img src = "Screenshot 2024-06-14 211520.png" width = "500">
+  <li>edit polygon</li> <img src = "Screenshot 2024-06-14 211504.png" width = "500">
+    
+  <ol>
+  
+  
 
-```bash
-# using npm
-npm run android
+  
 
-# OR using Yarn
-yarn android
-```
 
-### For iOS
 
-```bash
-# using npm
-npm run ios
 
-# OR using Yarn
-yarn ios
-```
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
-
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
