@@ -34,7 +34,7 @@ Aplikasi ZIPPY mengandalkan beberapa sumber data berikut:
 ## Tangkapan Layar Komponen Penting Produk
 
 ### **Tampilan Halaman Utama (Home Page)**  
-![homepagescooter.png)  
+![Tampilan Halaman Utama](path/to/screenshot2.png)  
 Deskripsi: Menampilkan waktu saat ini, pilihan transportasi (scooter atau sepeda listrik), serta tombol untuk melihat lokasi dan memulai proses sewa.
 
 ### **Tampilan Pembayaran (Payment)**  
