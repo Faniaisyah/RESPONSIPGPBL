@@ -52,6 +52,7 @@ Deskripsi: Menampilkan aktivitas seluruh aktivitas.
 
 ### **Tampilan Peta (Map)**  
 ![Tampilan Peta](maps.png)  
+![Tampilan Peta](maps2.png)  
 Deskripsi: Peta interaktif yang menunjukkan lokasi pengguna dan rute perjalanan.
 
 ### **Tampilan Peta (Map)**  
