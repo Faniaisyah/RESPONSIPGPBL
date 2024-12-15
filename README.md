@@ -10,67 +10,93 @@ ZIPPY adalah aplikasi mobile yang dirancang untuk memberikan solusi mobilitas ce
 - **Riwayat Aktivitas & Manajemen Akun**: Melihat riwayat penyewaan dan mengelola akun pengguna.
 
 
- <h3>Komponen Pembangun yang digunakan:</h3>
-    <ol>
-        <li><a href="https://geoserver.org/">Geoserver</a></li>
-        <li><a href="https://code.visualstudio.com/">Visual Studio Code</a></li>
-        <li><a href="https://www.w3schools.com/">W3schools</a></li>
-        <li><a href="https://fontawesome.com/">Fontawesome</a></li>
-        <li><a href="https://qgis.org/">QGIS</a></li>
-        <li><a href="https://dbeaver.io/">DBeaver</a></li>
-        <li><a href="https://getbootstrap.com/">Bootstrap</a></li>
-        <li><a href="https://laravel.com/">Laravel</a></li>
-        <li><a href="https://postgis.net/">PostGIS</a></li>
-        <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-        <li><a href="https://datatables.net/">Data Tables</a></li>
-        <li><a href="https://geojson.org/">GeoJSON</a></li>
-        <li><a href="https://en.wikipedia.org/wiki/Well-known_text_representation_of_geometry">Well-Known Text (WKT)</a></li>
-        <li><a href="https://leafletjs.com/">Leaflet</a></li>
-    </ol>
+ Fitur Aplikasi
+1. Home Page
+Jam: Menampilkan waktu saat ini untuk membantu pengguna menentukan waktu yang tepat untuk berangkat, terutama bagi pengguna yang bepergian ke kantor setelah menggunakan transportasi umum seperti kereta.
+Button Scooter: Menampilkan pilihan scooter yang tersedia untuk disewa.
+Button Electric Bike: Menampilkan pilihan sepeda listrik untuk disewa.
+Button View on Map: Mengarahkan pengguna ke halaman peta untuk melihat lokasi dan rute.
+Button Rent: Memungkinkan pengguna untuk menyewa scooter atau sepeda listrik yang dipilih, dan mengarahkan mereka ke halaman pembayaran.
+2. Activity
+Deskripsi: Halaman ini menampilkan hasil dari aktivitas navigasi yang dilakukan setelah pengguna menyelesaikan pembayaran.
+Button View Activity: Pengguna dapat melihat rincian aktivitas mereka, termasuk kota tujuan.
+3. Payment
+Deskripsi: Halaman untuk melakukan pembayaran sewa scooter atau sepeda listrik.
+Pilihan Pembayaran: Pengguna dapat memilih metode pembayaran seperti e-wallet, kartu debit, atau paylater dari aplikasi ZIPPY.
+Button Proceed to Payment: Pengguna mengklik tombol ini untuk menyelesaikan pembayaran. Setelah pembayaran berhasil, aplikasi akan mengarahkan pengguna ke halaman Activity.
+4. Inbox
+Deskripsi: Halaman untuk menyimpan semua aktivitas yang telah dilakukan oleh pengguna.
+Tombol Remove: Pengguna dapat menghapus aktivitas yang telah selesai dari inbox untuk menjaga kebersihan aplikasi.
+5. Account
+Deskripsi: Halaman untuk mengelola akun pengguna, termasuk profil pengguna, riwayat perjalanan, dan pengaturan lainnya.
+6. Map
+Deskripsi: Halaman peta untuk melihat lokasi, rute, dan titik perjalanan, memungkinkan pengguna untuk menentukan rute terbaik.
+Komponen Pembangun Produk
+Aplikasi ZIPPY dibangun menggunakan berbagai teknologi untuk memastikan pengalaman pengguna yang lancar dan responsif. Beberapa komponen utama yang digunakan dalam pengembangan aplikasi ini adalah:
 
+React Native: Framework utama untuk membangun aplikasi mobile yang dapat berjalan di platform iOS dan Android.
+React Navigation: Digunakan untuk mengelola navigasi antara halaman-halaman di dalam aplikasi.
+React Native Map: Untuk menampilkan peta dan lokasi pengguna serta rute perjalanan.
+Axios: Untuk mengelola permintaan HTTP jika aplikasi perlu berinteraksi dengan server eksternal.
+React Native Image Picker: Untuk memungkinkan pengguna mengambil foto untuk profil mereka.
+Redux: Untuk manajemen state global aplikasi, seperti status login dan riwayat aktivitas.
+React Native Payments: Untuk memudahkan integrasi pembayaran melalui e-wallet, kartu debit, atau paylater.
+AsyncStorage: Untuk menyimpan data lokal seperti riwayat aktivitas dan preferensi pengguna.
+Sumber Data
+Aplikasi ZIPPY mengandalkan beberapa sumber data berikut:
 
-<h2>Sumber Data:</h2>
+Data Lokasi: Data tentang lokasi pengguna dan titik perjalanan, yang digunakan untuk menampilkan peta dan rute perjalanan.
+Data Pembayaran: Metode pembayaran yang dipilih pengguna disimpan untuk memproses transaksi dengan penyedia pembayaran.
+Data Aktivitas: Riwayat aktivitas perjalanan yang disimpan dan dapat dilihat oleh pengguna.
+Tangkapan Layar Komponen Penting Produk
+Tampilan Halaman Utama (Home Page)
 
-<ul>
-  <li><a href="https://geoportal.slemankab.go.id/">Geoportal Kabupaten Sleman</a></li>
-  <li><a href="https://www.google.com/maps">Data Sebaran Fasilitas Pertahanan Dan Kemanan Melalu Google Maps</a></li>
-  <li><a href="https://geoportal.slemankab.go.id/](http://localhost:8080/geoserver/](http://localhost:8080/geoserver/web/?7">GeoServer</a></li>
-</li>
-</ul>
+Deskripsi: Menampilkan waktu saat ini, pilihan transportasi (scooter atau sepeda listrik), serta tombol untuk melihat lokasi dan memulai proses sewa.
 
-<h2>Tangkapan Layar Sumber Data</h2>
-<ol>
-  <li>Geoserver</li> <img src = "Screenshot 2024-06-13 201220.png" width = "500">
-  <li>Google Maps</li> <img src = "Screenshot 2024-06-13 201338.png" width = "500">
-   <li>Geoprortal Kabupaten Sleman</li> <img src = "Screenshot 2024-06-13 201353.png" width = "500">
-</ol>
+Tampilan Pembayaran (Payment)
 
+Deskripsi: Pengguna dapat memilih metode pembayaran dan menyelesaikan transaksi sewa kendaraan.
 
+Tampilan Aktivitas (Activity)
 
-<h2>Tangkapan Layar Komponen Penting</h2>
-<ol>
-  <li>index-public</li> <img src = "Screenshot 2024-06-13 201959.png" width = "500">
-  <li>login</li> <img src = "Screenshot 2024-06-13 202020.png" width = "500">
-  <li>index</li> <img src = "Screenshot 2024-06-14 211625.png" width = "500">
-  <li>dashboard</li> <img src = "Screenshot 2024-06-13 202040.png" width = "500">
-  <li>tabel point</li> <img src = "Screenshot 2024-06-13 202207.png" width = "500">
-   <li>tabel polyline</li> <img src = "Screenshot 2024-06-13 202216.png" width = "500">
- <li>tabel polygon</li> <img src = "Screenshot 2024-06-13 202225.png" width = "500">
-   <li>output point</li> <img src = "Screenshot 2024-06-13 202120.png" width = "500">
-  <li>output poilyline</li> <img src = "Screenshot 2024-06-13 202141.png" width = "500">
-  <li>output polygon</li> <img src = "Screenshot 2024-06-13 202158.png" width = "500">
-  <li>info</li> <img src = "Screenshot 2024-06-13 202236.png" width = "500">
-  <li>Edit point</li> <img src = "Screenshot 2024-06-14 211434.png" width = "500">
-  <li>edit polyline</li> <img src = "Screenshot 2024-06-14 211520.png" width = "500">
-  <li>edit polygon</li> <img src = "Screenshot 2024-06-14 211504.png" width = "500">
-    
-  <ol>
-  
-  
+Deskripsi: Menampilkan aktivitas perjalanan pengguna setelah pembayaran selesai.
 
-  
+Tampilan Peta (Map)
 
+Deskripsi: Peta interaktif yang menunjukkan lokasi pengguna dan rute perjalanan.
 
+Cara Menjalankan Aplikasi
+Persyaratan Sistem
+Node.js versi 14.x atau lebih tinggi
+npm versi 6.x atau lebih tinggi
+Android Studio atau Xcode (untuk pengembangan aplikasi seluler)
+Instalasi
+Clone repositori ini ke mesin lokal Anda:
+
+bash
+Copy code
+git clone https://github.com/username/repository-name.git
+Instal dependensi:
+
+bash
+Copy code
+cd repository-name
+npm install
+Jalankan aplikasi:
+
+Untuk Android:
+bash
+Copy code
+react-native run-android
+Untuk iOS:
+bash
+Copy code
+react-native run-ios
+Kontribusi
+Jika Anda ingin berkontribusi pada proyek ini, silakan buat pull request atau buka issue untuk berdiskusi tentang perubahan yang ingin Anda buat. Sebelum melakukan perubahan besar, harap lakukan fork dari repositori ini dan buat branch baru.
+
+Lisensi
+Produk ini dilisensikan di bawah MIT License.
 
 
 
