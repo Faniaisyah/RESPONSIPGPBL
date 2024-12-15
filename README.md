@@ -34,23 +34,29 @@ Aplikasi ZIPPY mengandalkan beberapa sumber data berikut:
 ## Tangkapan Layar Komponen Penting Produk
 
 ### **Tampilan Halaman Utama (Home Page)**  
-![Tampilan Halaman Utama](path/to/screenshot2.png)  
+![Tampilan Halaman Utama](homepagescooter.png)  
+![Tampilan Halaman Utama](homepagebike.png)
 Deskripsi: Menampilkan waktu saat ini, pilihan transportasi (scooter atau sepeda listrik), serta tombol untuk melihat lokasi dan memulai proses sewa.
 
 ### **Tampilan Pembayaran (Payment)**  
-![Tampilan Pembayaran](homepagescooter.png)  
+![Tampilan Pembayaran](pembayaran.png)  
 Deskripsi: Pengguna dapat memilih metode pembayaran dan menyelesaikan transaksi sewa kendaraan.
 
 ### **Tampilan Aktivitas (Activity)**  
-![Tampilan Aktivitas](path/to/screenshot3.png)  
+![Tampilan Aktivitas](aktivitas.png)  
 Deskripsi: Menampilkan aktivitas perjalanan pengguna setelah pembayaran selesai.
 
 ### **Tampilan Inbox**  
-![Tampilan Peta](path/to/screenshot4.png) 
+![Tampilan Peta](inbox.png) 
+Deskripsi: Menampilkan aktivitas seluruh aktivitas.
 
 ### **Tampilan Peta (Map)**  
-![Tampilan Peta](path/to/screenshot4.png)  
+![Tampilan Peta](maps.png)  
 Deskripsi: Peta interaktif yang menunjukkan lokasi pengguna dan rute perjalanan.
+
+### **Tampilan Peta (Map)**  
+![Tampilan Peta](akun.png)  
+Deskripsi: Menampilkan akun pengguna.
 
 ---
 
